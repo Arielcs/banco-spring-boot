@@ -24,7 +24,7 @@ public class ClienteService {
 	public Cliente buscaPorId(Integer identificacao) {
 		return clienteRepository.findById(identificacao).get();
 	}
-
+ 
 	public Cliente depositar(Cliente cliente) {
 		
 		//pega valor anterior na conta e soma com a atual
