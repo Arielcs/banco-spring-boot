@@ -1,3 +1,5 @@
+Acessar pasta - /src/main/java/com/example/apiweb/ws/
+
 Crontoller - faz a comunicação web
 Model - faz a criação do cliente
 Repository - Banco de dados
