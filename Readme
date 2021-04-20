@@ -1,0 +1,4 @@
+Crontoller - faz a comunicação web
+Model - faz a criação do cliente
+Repository - Banco de dados
+Service - controla os serviços feitos pelo cliente
