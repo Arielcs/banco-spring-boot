@@ -5,6 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.apiweb.ws.model.Cliente;
 
+
 @Repository
 public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
 

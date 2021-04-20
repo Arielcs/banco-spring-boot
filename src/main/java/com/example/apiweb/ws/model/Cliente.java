@@ -6,7 +6,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Cliente {
-
+	//Gera id altomaticamente
 	@Id
 	@GeneratedValue
 	private Integer id;
@@ -14,7 +14,7 @@ public class Cliente {
 	private Float saldoConta;
 	
 	public Integer getId() {
-		return id;
+		return id; 
 	}
 	
 	public void setId(Integer id) {
